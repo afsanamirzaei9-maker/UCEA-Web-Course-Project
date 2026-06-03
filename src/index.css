@@ -1,16 +1,16 @@
 @import "tailwindcss";
 @font-face {
     font-family: 'Lalezar';
-    src: url("../public/fonts/lalezar/Lalezar-Regular.ttf") format('truetype');
+    src: url("../fonts/lalezar/Lalezar-Regular.ttf") format('truetype');
 }
 @font-face {
     font-family: "IranYekan";
-    src: url("../public/fonts/yekan/Qs_Iranyekan.ttf") format("truetype");
+    src: url("../fonts/yekan/Qs_Iranyekan.ttf") format("truetype");
     font-weight: 400;
 }
 @font-face {
     font-family: "IranYekan";
-    src: url("../public/fonts/yekan/Qs_Iranyekan bold.ttf") format("truetype");
+    src: url("../fonts/yekan/Qs_Iranyekan bold.ttf") format("truetype");
     font-weight: 700;
 }
 @theme {
