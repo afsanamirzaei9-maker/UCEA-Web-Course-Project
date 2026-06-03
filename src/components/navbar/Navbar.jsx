@@ -6,11 +6,11 @@ export const Navbar = () => {
     return ( 
         <>
             <div className="navbar-container w-full flex justify-between px-10 py-3 bg-purple-500">
-                <div className="navLogo"><span>پروژه</span></div>
+                <div className="navLogo font-lalezar text-3xl"><span>پروژه</span></div>
                 <ul className="navbar-ul flex">
                     {navbarData.map((navLink)=>(
                         <NavLinks 
-                        key={navLink.id}
+                        key={navLink.path}
                         {...navLink}/>
                     ))}
                 </ul>
