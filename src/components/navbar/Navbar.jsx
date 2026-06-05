@@ -7,10 +7,10 @@ export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return ( 
         <>
-            <nav className="navbar-container w-full  px-10 py-3 bg-purple-500">
+            <nav className="navbar-container w-full  px-10 py-3 bg-green-900 text-white">
 
                 <div className="flex justify-between">
-                    <div className="navLogo font-lalezar text-3xl"><span>پروژه</span></div>
+                    <div className="navLogo font-lalezar text-3xl"><span>دانشگاه آسیای مرکزی</span></div>
 
                     {/* Desktop Menue */}
                     <div className="desktopMenu flex justify-between">
@@ -26,7 +26,7 @@ export const Navbar = () => {
                         <button className="text-success md:hidden"
                             onClick ={()=> setIsOpen(!isOpen)}
                         >
-                            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#ffffff">
                                  <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
                             </svg>
                         </button>
@@ -37,7 +37,7 @@ export const Navbar = () => {
                 {/* Mobile Menue */}
                 { 
                     isOpen && (
-                        <ul className="mobilMenu md:hidden flex flex-col items-center space-y-3 my-4">
+                        <ul className="mobilMenu md:hidden flex flex-col items-center space-y-3 my-4 ">
                             {navbarData.map((navLink)=>(
                                 <NavLinks 
                                 key={navLink.path}
