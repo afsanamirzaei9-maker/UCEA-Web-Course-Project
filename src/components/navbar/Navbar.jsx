@@ -7,7 +7,7 @@ export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return ( 
         <>
-            <nav className="navbar-container w-full  px-10 py-3 bg-purple-500">
+            <nav className="navbar-container w-full  px-10 py-3 bg-gradient-to-br from-purple-500 via-purple-400/20 to-purple-400">
 
                 <div className="flex justify-between">
                     <div className="navLogo font-lalezar text-3xl"><span>پروژه</span></div>
