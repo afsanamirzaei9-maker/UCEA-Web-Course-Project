@@ -1,0 +1,16 @@
+.greenBtn{
+    border: 2px solid green;
+    color: green;
+}
+.redBtn{
+    border: 2px solid red;
+    color: red;
+}
+.blueBtn{
+    border: 2px solid blue;
+    color: blue;
+}
+.purpleBtn{
+    border: 2px solid purple;
+    color: purple;
+}
