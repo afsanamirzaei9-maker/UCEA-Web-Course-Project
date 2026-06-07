@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/UCEA-Web-Course-Project/',
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] }),
