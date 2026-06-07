@@ -17,7 +17,7 @@ export const navbarData = [
     {
         id: 4,
         title: 'پنل',
-        path: '/panel',
+        path: '/login',
     },
     {
         id: 5,

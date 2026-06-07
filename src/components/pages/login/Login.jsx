@@ -1,7 +1,19 @@
+import { NavLink } from "react-router-dom";
 export const Login = () => {
     return ( 
-        <>
-            <h1 className="bg-orange-700">Login Page</h1>
-        </>
+        <div className=" h-screen bg-gray-100 flex items-center">
+            <form className="border flex flex-col justify-center items-center p-10 w-70 h-80 mx-auto rounded-lg shadow-lg">
+                <p className="font-IranYekan text-md text-black font-bold">ورود به سیستم</p>
+                <input type="email" placeholder="ایمیل آدرس" className="border text-center rounded-sm p-2 m-3" />
+                <input type="password" placeholder="رمز ورود" className="border text-center rounded-sm p-2 m-3" />
+                <NavLink 
+                    type="submit" 
+                    className="border text-center rounded-sm p-2 m-3 w-30 bg-blue-700 text-white hover:bg-blue-500 text-decoration-none"
+                    to="/panel"
+                    >
+                        ورود
+                </NavLink>
+            </form>
+        </div>
     );
 }
