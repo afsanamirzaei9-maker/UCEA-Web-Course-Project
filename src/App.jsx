@@ -1,8 +1,8 @@
-import { Login } from'./components/pages/login/Login';
-import { Panel } from'./components/pages/panel/Panel';
-import { Blog } from'./components/pages/blog/Blog';
-import { About } from'./components/pages/about/About';
-import { Home } from'./components/pages/home/Home';
+import { Login } from './components/pages/login/Login';
+import { Panel } from './components/pages/panel/Panel';
+import { Blog } from './components/pages/blog/Blog';
+import { About } from './components/pages/about/About';
+import { Home } from './components/pages/home/Home';
 import { Navbar } from './components/navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
 import './App.css'
@@ -44,4 +44,3 @@ function App() {
 }
 
 export default App;
-
